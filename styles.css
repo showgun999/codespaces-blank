@@ -33,3 +33,10 @@
 .textshadow {
     text-shadow: 3px 3px 3px rgb(255, 0, 0);
 }
+.bigtext {
+    font-size: 60px;
+    font-family: Sans-serif, tahoma, verdana;
+    background: linear-gradient( to right, #f32170,#ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
