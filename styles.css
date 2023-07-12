@@ -20,15 +20,16 @@
 .fancytext2 {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right, #000000 20%,#ff2121 50%, #000000 80%);
+    background: linear-gradient(to right, #000000 10%,#ff2121 50%, #000000 90%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 .rightext {
     text-align: right;
-    margin-right: 250px;
 }
 .leftext {
     text-align: left;
-    margin-left: 250px;
+}
+.textshadow {
+    text-shadow: 3px 3px 3px rgb(255, 0, 0);
 }
