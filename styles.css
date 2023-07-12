@@ -2,5 +2,33 @@
     text-align: center;
 }
  body {
-    background-color: rgb(31, 166, 207);
+    background: rgb(39, 39, 39);
+}
+.centerphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.fancytext {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient( to right, #f32170,#ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.fancytext2 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #000000 20%,#ff2121 50%, #000000 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.rightext {
+    text-align: right;
+    margin-right: 250px;
+}
+.leftext {
+    text-align: left;
+    margin-left: 250px;
 }
